@@ -174,6 +174,7 @@ header{
 .blue_underline{
     width: 40px;
     height: 2px;
+    margin: 0px auto;
     background-color: #1C70EE;
 }
 .sales-cards{
@@ -258,4 +259,314 @@ header{
     background-color: #1C70EE;
     color: white;
     font-size: .9rem;
+}
+
+.feedback{
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 120px;
+    background-image: url("../images/backgroundfeedback.png");
+}
+
+.wrapper-feedback{
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info-feedback{
+    width: 100%;
+    height: 203px;
+    display: flex;
+    background-color: #1C70EE;
+}
+
+.slider-portfolio{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.wrapper-portfolio{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.info-describe{
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    padding: 51px 59px 40px 59px;
+}
+
+.header-name{
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.feedback-info-name{
+    font-size: 21px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.photo-member{
+    width: 121px;
+    height: 121px;
+    border: 2px solid #8db7f7;
+    border-radius: 200px;
+    margin-bottom: 12px;
+}
+
+.member-name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px auto;
+    margin-left: 0px;
+}
+
+.photo-member-img{
+    border-radius: 100px;
+}
+
+.member{
+    margin-top: 26px;
+}
+
+.status-member{
+    display: flex;
+}
+
+.active-member{
+    width: 7px;
+    height: 7px;
+    background: #A2F439;
+    border-radius: 100px;
+    margin: 0px auto;
+    margin-right: 9px;
+    margin-top: 5px;
+}
+
+.team{
+    display: flex;
+}
+
+.member:nth-child(2n){
+    margin-left: 32px;
+}
+
+.button-feedback{
+    width: 229px;
+    height: 73px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-left: 74px;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.feedback-info{
+    padding: 22px 15px 23px 17px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.button-feedback:hover{
+    background-color: white;
+    color: #1C70EE;
+    transition: all 1s ease-out;
+}
+
+.certification{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.wrapper-certification{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.block-name{
+    margin: 0px auto;
+    margin-bottom: 53px;
+}
+
+.image-certification{
+    width: 270px;
+    height: 400px;
+}
+
+.certification-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments{
+    width: 100%;
+    background-image: url("../images/Rectangle 24.png");
+    background-position-y: -200px;
+    margin-bottom: 121px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.wrapper-comment{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.comments-wrapper-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.comment-text{
+    padding: 29px 33px 29px 33px;
+}
+
+.comment-text-wrapper{
+    width: 625px;
+    height: 214px;
+    background-color: white;
+    position: relative;
+}
+
+.comment-text-wrapper img{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+}
+
+
+.comment-text{
+    width: 450px;
+    height: 129px;
+    font-size: 19px;
+
+}
+
+.photo-client{
+    border-radius: 100px;
+    width: 109px;
+    height: 109px;
+}
+
+.client{
+    margin-top: 22px;
+    display: flex;
+}
+
+.client-info{
+    margin-left: 25px;
+    margin-top: 29px;
+}
+
+.wrapper-comment .block-name{
+    padding-top: 100px;
+}
+
+.client-name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1818
+}
+
+.client-date{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #C9C9C9;
+}
+
+.card:nth-child(2n){
+    margin-left: 15px;
+}
+
+footer{
+    width: 100%;
+}
+
+.map{
+    max-width: 1200px;
+    height: 479px;
+    margin: 0px auto;
+}
+
+.footer-info{
+    max-width: 1200px;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy-footer{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    color: #C4C4C4;
+    padding-top: 5px;
+}
+
+.privacy-footer p{
+    margin-right: 15px;
+}
+
+.made-by{
+    display: flex;
+}
+
+.made-by p{
+    font-size: 20px;
+    color: #C4C4C4;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.made-by img{
+    width: 35px;
+    height: 25px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.social-network{
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-network img{
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    cursor: pointer;
+
 }
