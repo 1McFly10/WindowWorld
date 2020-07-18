@@ -236,7 +236,19 @@ header{
     font-weight: bold;
     text-align: center;
 }
-
+.profile-logos{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.profile-logos img{
+    width: 120px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid #1C70EE;
+}
 
 .profile-button{
     width: 170px;
