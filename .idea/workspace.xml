@@ -55,7 +55,7 @@
       <workItem from="1594766268419" duration="15000" />
       <workItem from="1594973144875" duration="14823000" />
       <workItem from="1595087700392" duration="13918000" />
-      <workItem from="1595157507040" duration="2454000" />
+      <workItem from="1595157507040" duration="8680000" />
     </task>
     <servers />
   </component>
@@ -79,5 +79,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1595090245371" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1595166394183">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595166394183" />
   </component>
 </project>
