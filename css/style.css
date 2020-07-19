@@ -1108,3 +1108,32 @@ form{
     font-size: 15px;
     cursor: pointer;
 }
+
+.wrapper-slider{
+    display: flex;
+    margin-top: 70px;
+}
+
+.card-portfolio:nth-child(2n){
+    margin-left: 15px;
+}
+
+.card-portfolio{
+    width: 800px;
+}
+
+.city{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #C9C9C9;
+}
+
+.project-name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #1A1818;
+}
