@@ -21,7 +21,7 @@ a {
     }
     header{
         position: absolute;
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: normal;
         z-index: 99;
@@ -64,7 +64,7 @@ a {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        background-color: #CFA166;
+        background-color: #1C70EE;
         color: white;
         height: 100%;
         left: 0;top: 0;
@@ -128,7 +128,7 @@ a {
         height: auto;
         position: absolute;
         left: -80px;
-        top: 45px;
+        top: 15px;
     }
     .cancel_button{
         width: 30px;
