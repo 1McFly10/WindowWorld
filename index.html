@@ -67,8 +67,16 @@
         <div class="blue_underline"></div>
 <!--    </div>-->
     <div class="sales-cards">
-        <img class="sales-card" src="images/sales_cards/sale.png">
+        <div class="sales-card" style="background-image: url(images/sales_cards/sale.png)">
+            <img class="logo" src="images/logo.png">
+            <div class="red-tape">
+                <img src="images/sales_cards/red_tape.png">
+            </div>
+            <p class="sales-card-discount">-40%</p>
+        </div>
         <div class="sales-card" style="background-image: url(images/sales_cards/sale_2.png)">
+            <img class="logo" src="images/logo.png">
+            <p class="sales-card-title">Качественные пластиковые окна</p>
             <div class="sales-card-button">Оставить заявку</div>
         </div>
     </div>
@@ -76,7 +84,24 @@
     <div class="left-sidebar-text">
         Компания «Оконный Бум» помогает клиентам подбирать лучшие решения, учитывая пожелания к характеристикам окна и его стоимости. Окно — это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.
     </div>
-    <img class="right-sidebar-images" src="images/sales_cards/guarantee.png">
+        <div class="advantages-wrapper">
+            <div class="advantage-item">
+            <img src="images/advantages_icons/guarantee_1.png">
+                <p>Гарантия окна</p>
+            </div>
+            <div class="advantage-item">
+                <img src="images/advantages_icons/guarantee_1.png">
+                <p>Гарантия окна</p>
+            </div>
+            <div class="advantage-item">
+                <img src="images/advantages_icons/guarantee_1.png">
+                <p>Гарантия окна</p>
+            </div>
+            <div class="advantage-item" >
+                <img src="images/advantages_icons/guarantee_1.png">
+                <p>Гарантия окна</p>
+            </div>
+        </div>
 
 </div>
 </div>
@@ -85,15 +110,49 @@
     <p class="profile-systems-title">Профильные системы</p>
     <div class="blue_underline"></div>
     <div class="profile-logos">
-        <img src="images/profile_systems/rehau-logo.png">
-        <img src="images/profile_systems/wds-logo.png">
-        <img src="images/profile_systems/salamander-logo.png">
-        <img src="images/profile_systems/veka-logo.png">
+        <img src="images/profile_systems/rehau-logo.png" class="active-logo" id="one">
+        <img src="images/profile_systems/wds-logo.png" class="passive-logo" id ="two">
+        <img src="images/profile_systems/salamander-logo.png" class="passive-logo" id ="three">
+        <img src="images/profile_systems/veka-logo.png" class="passive-logo" id="four">
+
     </div>
     <div class="profile-card">
-        <img class="profile-image">
+        <div  class="profile-image-wrapper">
+        <img class="profile-image" src="images/profile_systems/rehau-profile.png">
+        </div>
         <div class="profile-info">
-            <p class="profile-name">Название товара</p>
+            <p class="profile-name">Rehau profile</p>
+            <p class="profile-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <div class="profile-button">Оставить заявку</div>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <img class="profile-image" src="images/profile_systems/wds-profile.png">
+        <div class="profile-info">
+            <p class="profile-name">WDS profile</p>
+            <p class="profile-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <div class="profile-button">Оставить заявку</div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="images/profile_systems/salamander-profile.png">
+        <div class="profile-info">
+            <p class="profile-name">Salamander profile</p>
+            <p class="profile-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <div class="profile-button">Оставить заявку</div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <img class="profile-image" src="images/profile_systems/veka-profile.png">
+        <div class="profile-info">
+            <p class="profile-name">Veka profile</p>
             <p class="profile-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
@@ -233,5 +292,6 @@
 
 <script src="scripts/header.js"></script>
 <script src="scripts/header_slider.js"></script>
+<script src="scripts/profile_systems.js"></script>
 </body>
 </html>
