@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lorem Ipsum</title>
-	<!-- <link rel="stylesheet" href="css/reset.css"> -->
 	<link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
@@ -14,6 +13,29 @@
 	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
 </head>
 <body>
+
+<div id="popup" class="popup">
+    <div class="popup-body">
+        <div class="popup__content">
+            <a href="#" class="popup-close">
+                <img src="images/close.png">
+            </a>
+            <div class="block-name">
+                <p class="profile-systems-title">Обратная связь</p>
+                <div class="blue_underline"></div>
+                <p class="popup-sup-title">Наши менеджеры помогут Вам</p>
+            </div>
+            <form>
+                <input placeholder="Ваше имя" type="text">
+                <input placeholder="Ваш телефон" type="tel">
+                <input placeholder="Комментарий" type="text">
+                <div class="call-me-button">
+                    <button class="free-calculate-form-button">Перезвоните мне</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <header>
     <!-- Mobile navigation -->
@@ -48,7 +70,7 @@
                 </div>
 <!--            </div>-->
         <div class="header-button">
-            <a>Оставить заявку</a>
+            <a href="#popup">Оставить заявку</a>
         </div>
     </div>
 </header>
@@ -160,7 +182,7 @@
         </div>
     </div>
 </div>
-<!--
+
 <div class="slider-portfolio">
     <div class="wrapper-portfolio">
         <p class="profile-systems-title">Наши работы</p>
@@ -301,7 +323,8 @@
         </div>
     </div>
 </footer>
--->
+
+
 <script src="scripts/header.js"></script>
 <script src="scripts/header_slider.js"></script>
 <script src="scripts/profile_systems.js"></script>
