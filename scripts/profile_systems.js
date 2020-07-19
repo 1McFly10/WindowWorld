@@ -2,7 +2,6 @@ let profile_card = document.querySelectorAll('.profile-card');
 let profile_logos = $('.profile-logos img');
 console.log(profile_card);
 profile_card[0].style.display = 'flex';
-
 $('.profile-logos img').click((e)=>{
     if(e.target.id === 'one'){
         profile_card[0].style.display = 'flex';

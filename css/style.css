@@ -7,23 +7,6 @@ a{
     color: black;
     text-decoration: none;
 }
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff')
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff')
-}
-
-a {
-    text-decoration: none;
-}
 
 
 header{
@@ -40,7 +23,6 @@ header{
     align-items: center;  
     justify-content: space-between;
     font-size: 1.2rem;
-    /*border: 1px solid black;*/
 }
 .logo{
     /*margin-left: 10px;*/
@@ -164,9 +146,12 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-.sales_wrapper p{
+.sales-wrapper-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sales-card-discount p{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 15px;
@@ -213,7 +198,7 @@ header{
 }
 .sales-card-discount{
     position: absolute;
-    top: 120px;
+    top: 105px;
     left: 80px;
     font-size: 2.6rem;
     letter-spacing: 2.5px;
@@ -275,7 +260,6 @@ header{
 }
 
 
-
 .profile-systems-wrapper{
     width: 1200px;
     display: flex;
@@ -314,6 +298,7 @@ header{
     background-color: #1C70EE;
     color: white;
     font-size: .9rem;
+    cursor: pointer;
 }
 .profile-card{
     width: 1000px;
@@ -661,5 +646,390 @@ footer{
     height: 30px;
     margin-right: 12px;
     cursor: pointer;
+
+}
+
+@media (max-width: 1280px) {
+    .header-container{
+        width: 1000px;
+        font-size: 1rem;
+    }
+    .header-container ul{
+        width: 460px;
+        font-size: .7rem;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    .text-info{
+        width: 1000px;
+    }
+    .sales_wrapper{
+        width: 1000px;
+    }
+    .sales-cards{
+        width: 1000px;
+    }
+    .sales-card{
+        width: 48%;
+    }
+    .profile-systems-wrapper{
+        width: 1000px;
+
+    }
+    .sales-card .logo{
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+    }
+    .sales-card .red-tape img{
+        width: 244px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    .sales-card-discount{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 2.5px;
+    }
+    .sales-card-title{
+        text-align: left;
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        font-size: 1.6rem;
+    }
+
+    .sales-card-button {
+        position: absolute;
+        bottom: 60px;
+        left: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: 1.5px solid white;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .profile-logos{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1024px) {
+    .header-container{
+        width: 95%;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .header-container ul{
+        width: 395px;
+        font-size: .6rem;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    .header-container li{
+        cursor: pointer;
+        text-transform: uppercase;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        border-bottom: 2px solid transparent;
+    }
+    .phone-card{
+        text-align: center;
+    }
+    .header-button{
+        text-align: center;
+        padding: 11px;
+        margin-left: 5px;
+    }
+    .text-info{
+        width: 760px;
+    }
+    .sales_wrapper{
+        width: 760px;
+    }
+    .sales-cards{
+        width: 760px;
+    }
+    .sales-card{
+        width: 48%;
+    }
+    .profile-systems-wrapper{
+        width: 760px;
+
+    }
+    .sales-card .logo{
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+    }
+    .sales-card .red-tape img{
+        width: 244px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    .sales-card-discount{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 2.5px;
+    }
+    .sales-card-title{
+        text-align: left;
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        font-size: 1.6rem;
+    }
+
+    .sales-card-button {
+        position: absolute;
+        bottom: 60px;
+        left: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: 1.5px solid white;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .profile-logos{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .profile-card{
+        width: 760px;
+    }
+}
+@media (max-width: 960px) {
+    .phone-card{
+        display: none;
+    }
+    .header-container ul{
+        width: 385px;
+        font-size: .6rem;
+        font-weight: bold;
+        /*margin-right: 30px;*/
+    }
+}
+@media (max-width: 768px) {
+    .header-container nav{
+        display: none;
+    }
+    .sales-cards{
+        flex-wrap: wrap;
+    }
+    .header-button{
+        display: none;
+    }
+    .header-container{
+        width: 95%;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .header-button{
+        text-align: center;
+        padding: 11px;
+        margin-left: 5px;
+    }
+    .text-info{
+        width: 400px;
+    }
+    .sales_wrapper{
+        width: 400px;
+    }
+    .sales-cards{
+        width: 400px;
+    }
+    .sales-card{
+        width: 100%;
+    }
+    .guarantee{
+        flex-wrap: wrap;
+    }
+    .left-sidebar-text{
+        width: 100%;
+    }
+    .advantages-wrapper{
+        width: 100%;
+    }
+    .profile-systems-wrapper{
+        width: 400px;
+
+    }
+    .sales-card .logo{
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+    }
+    .sales-card .red-tape img{
+        width: 244px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    .sales-card-discount{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 2.5px;
+    }
+    .sales-card-title{
+        text-align: left;
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        font-size: 1.6rem;
+    }
+
+    .sales-card-button {
+        position: absolute;
+        bottom: 60px;
+        left: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: 1.5px solid white;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .profile-logos{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .profile-logos img{
+        width: 90px;
+        height: 37px;
+    }
+    .profile-card{
+        width: 400px;
+    }
+    .profile-button{
+        width: 120px;
+        font-size: .75rem;
+    }
+
+}
+@media (max-width: 425px) {
+
+    .text-info{
+        width: 310px;
+    }
+    .sales_wrapper{
+        width: 310px;
+    }
+    .sales-cards{
+        width: 310px;
+    }
+    .sales-card{
+        width: 100%;
+    }
+    .guarantee{
+        flex-wrap: wrap;
+    }
+    .left-sidebar-text{
+        width: 100%;
+    }
+    .advantages-wrapper{
+        width: 100%;
+    }
+    .profile-systems-wrapper{
+        width: 310px;
+
+    }
+    .sales-card .logo{
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        top: 50px;
+        left: 25px;
+    }
+    .sales-card .red-tape img{
+        width: 244px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    .sales-card-discount{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 2.5px;
+    }
+    .sales-card-title{
+        text-align: left;
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        font-size: 1.6rem;
+    }
+
+    .sales-card-button {
+        position: absolute;
+        bottom: 60px;
+        left: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: 1.5px solid white;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .profile-systems-wrapper{
+        margin-top: 50px;
+    }
+    .profile-logos{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .profile-logos img{
+        width: 60px;
+        height: 30px;
+    }
+    .profile-card{
+        width: 310px;
+        flex-wrap: wrap;
+    }
+    .profile-image-wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile-info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile-button{
+        width: 120px;
+        font-size: .75rem;
+    }
 
 }
