@@ -43,11 +43,11 @@
         <a href="#" class="menu-btn" ><img src="images/burger_menu/menu.png" class="menu_button"></a>
         <a href="#" class="cancel-btn"><img src="images/burger_menu/cancel.png" class="cancel_button"></a>
         <nav class="codrops-demos_sidebar">
-            <a  href="index.html">Акции</a>
-            <a class="current-demo" href="catalog.html">Профильные системы</a>
-            <a  href="news.html">О компании</a>
-            <a href="contact.html">Сертификаты</a>
-            <a href="contact.html">Отзывы</a>
+            <a  href="#sales_wrapper">Акции</a>
+            <a class="current-demo" href="#profile-systems">Профильные системы</a>
+            <a  href="#guarantee">О компании</a>
+            <a href="#certifications">Сертификаты</a>
+            <a href="#comments">Отзывы</a>
             <!-- class="current-demo" -->
         </nav>
     </div>
@@ -56,11 +56,11 @@
         <a href="#"><img src="images/logo.png" class="logo" alt="#"></a>
         <nav>
             <ul>
-                <li>Акции</li>
-                <li>Профильные системы</li>
-                <li>О компании</li>
-                <li>Сертификаты</li>
-                <li>Отзывы</li>
+                <li><a href="#sales_wrapper">Акции</a></li>
+                <li><a href="#profile-systems">Профильные системы</a></li>
+                <li><a href="#guarantee">О компании</a></li>
+                <li><a href="#certifications">Сертификаты</a></li>
+                <li><a href="#comments">Отзывы</a></li>
             </ul>
         </nav>
 <!--            <div class="container_phone-card">-->
@@ -83,7 +83,7 @@
     </div>
 </div>
 </div>
-<div class="sales_wrapper">
+<div class="sales_wrapper" id="sales_wrapper">
 <!--    <div class="sales">-->
         <p class="sales-wrapper-title">Последние акции и скидки</p>
         <div class="blue_underline"></div>
@@ -102,7 +102,7 @@
             <div class="sales-card-button">Оставить заявку</div>
         </div>
     </div>
-    <div class="guarantee">
+    <div class="guarantee" id = "guarantee">
     <div class="left-sidebar-text">
         Компания «Оконный Бум» помогает клиентам подбирать лучшие решения, учитывая пожелания к характеристикам окна и его стоимости. Окно — это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.
     </div>
@@ -128,7 +128,7 @@
 </div>
 </div>
 
-<div class="profile-systems-wrapper">
+<div class="profile-systems-wrapper" id="profile-systems">
     <p class="profile-systems-title">Профильные системы</p>
     <div class="blue_underline"></div>
     <div class="profile-logos">
@@ -183,7 +183,7 @@
     </div>
 </div>
 
-<div class="slider-portfolio">
+<div class="slider-portfolio" id="our-works">
     <div class="wrapper-portfolio">
         <p class="profile-systems-title">Наши работы</p>
         <div class="blue_underline"></div>
@@ -236,7 +236,7 @@
     </div>
 </div>
 
-<div class="certification">
+<div class="certification" id = "certifications">
     <div class="wrapper-certification">
         <div class="block-name">
             <p class="profile-systems-title">Сертификаты</p>
@@ -260,7 +260,7 @@
     </div>
 </div>
 
-<div class="comments">
+<div class="comments" id = "comments">
     <div class="wrapper-comment">
         <div class="block-name">
             <p class="profile-systems-title">Отзывы наших клиентов</p>
@@ -324,7 +324,7 @@
     </div>
 </footer>
 
-
+<script src="scripts/slow_anchor.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/header_slider.js"></script>
 <script src="scripts/profile_systems.js"></script>
