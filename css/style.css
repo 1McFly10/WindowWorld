@@ -663,3 +663,35 @@ footer{
     cursor: pointer;
 
 }
+
+.wrapper-slider{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-portfolio:nth-child(2n){
+    margin-left: 10px;
+}
+
+.city{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #C9C9C9;
+}
+
+.project-name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #1A1818;
+}
+
+.card-portfolio img{
+    max-width: 625px;
+}
